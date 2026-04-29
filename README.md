@@ -1,4 +1,3 @@
-%md
 
 <div style="background: linear-gradient(135deg, #0D1117 0%, #161B22 100%); padding: 40px; border-radius: 12px; border: 1px solid #30363D; margin-bottom: 20px;">
 
