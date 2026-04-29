@@ -18,7 +18,7 @@ Traditional rule-based systems catch obvious cases but miss sophisticated scheme
 
 This demo simulates a **production banking environment** where:
 
-- Transactions stream into Databricks via Kafka / IoT-style feeds
+- Transactions stream into Databricks via Kafka / IoT-style feeds for this demo we are generating the data databricks itself
 - A **suspicious pattern appears** — e.g., multiple small deposits (\$900, \$850, \$950) followed by one large withdrawal (\$3,500) — classic **structuring behavior**
 - The **ML model flags the anomaly** — velocity features spike, amount z-score exceeds 2.8σ
 - The **risk score increases dynamically** from Low to Critical
